@@ -4,6 +4,7 @@ from sys import argv
 
 tokens = []
 
+#BLABLABLA
 with open(argv[1], 'rt') as f:
 	line = f.readline().rstrip('\n')
 	token = ''
