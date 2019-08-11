@@ -4,6 +4,7 @@ from urllib.request import urlopen
 
 cpus = {}
 
+# Só um pull request
 content = urlopen('http://localhost:9100/metrics').read().decode().split('\n')
 
 for line in content:
